@@ -1,4 +1,7 @@
 .env
 __pycache__
 .vscode/
-public/media/*
+*.mp4
+*.png
+*.txt
+*.pdf
