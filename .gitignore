@@ -3,5 +3,5 @@ __pycache__
 .vscode/
 *.mp4
 *.png
-*.txt
 *.pdf
+public/media/docs/*.txt
