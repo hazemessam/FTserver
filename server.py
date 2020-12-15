@@ -26,6 +26,7 @@ def get_index():
 @app.route('/docs')
 def get_docs():
     docs_names = os.listdir('public/media/docs')
+    docs_names.remove('.gitkeep')
     files = list()
     for name in docs_names:
         file = File(filename=name, type='doc')
@@ -36,6 +37,7 @@ def get_docs():
 @app.route('/imgs')
 def get_imgs():
     imgs_names = os.listdir('public/media/imgs')
+    imgs_names.remove('.gitkeep')
     files = list()
     for name in imgs_names:
         file = File(filename=name, type='img')
@@ -46,6 +48,7 @@ def get_imgs():
 @app.route('/vids')
 def get_vids():
     vids_names = os.listdir('public/media/vids')
+    vids_names.remove('.gitkeep')
     files = list()
     for name in vids_names:
         file = File(filename=name, type='vid')
@@ -55,4 +58,4 @@ def get_vids():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=2121)
+    app.run(host='0.0.0.0', port=2121, debug=True)
