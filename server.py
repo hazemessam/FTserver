@@ -10,13 +10,13 @@ class File:
 
     def generate_link(self):
         filename = self.filename.replace(' ', '%20')
-        self.link = f'/media/{self.type}s/{filename}'
+        self.link = f'/public/media/{self.type}s/{filename}'
 
 
 app = Flask(
     __name__,
     static_folder='public',
-    static_url_path='/'
+    static_url_path='/public'
 )
 
 @app.route('/')
@@ -59,3 +59,4 @@ def get_vids():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=2121, debug=True)
+
