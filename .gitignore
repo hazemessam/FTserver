@@ -4,4 +4,6 @@ __pycache__
 *.mp4
 *.png
 *.pdf
-public/media/docs/*.txt
+*.txt
+*.ini
+*.ico
