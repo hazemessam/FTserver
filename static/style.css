@@ -39,9 +39,12 @@ main {
 }
 
 a {
+    text-decoration: none;
+}
+
+main a {
     background-color: #fff;
     color: var(--primary);
-    text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
     margin: 5px;
