@@ -1,10 +1,8 @@
-.env
 __pycache__
 .vscode/
-*.mp4
-*.png
-*.jpg
-*.pdf
-*.txt
+.venv
 *.ini
-*.ico
+public/media/docs/*
+public/media/imgs/*
+public/media/vids/*
+!.gitkeep
