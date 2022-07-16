@@ -1,7 +1,12 @@
 # FTP Server
-FTP server streams media files from my PC to my iPhone using my local WLAN.
+FTP server streams my media files from my PC to my WLAN devices.
 
-# Setup
+## Tech Stack
+- Python
+- Flask
+- Docker
+
+## Setup
 
 #### 1. Clone the repo
 ```bach
