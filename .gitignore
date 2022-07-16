@@ -1,6 +1,6 @@
 __pycache__
 .vscode/
-.venv
+venv/
 *.ini
 public/media/docs/*
 public/media/imgs/*
