@@ -6,3 +6,4 @@ media/docs/*
 media/imgs/*
 media/vids/*
 !.gitkeep
+*.log
