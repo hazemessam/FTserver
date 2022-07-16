@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FTserver</title>
-    <link rel="stylesheet" href="/public/static/style.css">
-</head>
-<body>
+{% extends "layout.html" %}
+
+{% block main %}
     {% for file in files %}
         <a href="{{file.link}}">{{file.filename}}</a>
     {% endfor %}
-</body>
-</html>
+{% endblock %}
