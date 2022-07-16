@@ -3,6 +3,7 @@ __pycache__
 .vscode/
 *.mp4
 *.png
+*.jpg
 *.pdf
 *.txt
 *.ini
