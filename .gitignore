@@ -2,7 +2,7 @@ __pycache__
 .vscode/
 venv/
 *.ini
-public/media/docs/*
-public/media/imgs/*
-public/media/vids/*
+media/docs/*
+media/imgs/*
+media/vids/*
 !.gitkeep
