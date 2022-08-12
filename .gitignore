@@ -1,4 +1,4 @@
-__pycache__
+__pycache__/
 .vscode/
 venv/
 *.ini
@@ -7,3 +7,4 @@ media/imgs/*
 media/vids/*
 !.gitkeep
 *.log
+.env

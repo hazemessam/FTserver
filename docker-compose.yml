@@ -1,0 +1,17 @@
+services:
+    backend:
+        build: .
+        volumes:
+            - .:/app
+            - ${MEDIA_DIR}:/app/media
+        ports:
+            - 8080
+
+    nginx:
+        image: nginx
+        volumes:
+            - ./nginx.conf:/etc/nginx/nginx.conf
+        ports:
+            - 80:80
+        depends_on:
+            - backend
