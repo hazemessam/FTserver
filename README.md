@@ -31,7 +31,7 @@ docker compose build
 
 #### 5. Run the project using docker compose.
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 #### 6. Now check the service runing on the port `80` form your PC http://localhost/.
