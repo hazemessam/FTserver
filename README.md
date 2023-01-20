@@ -1,4 +1,4 @@
-# FTP Server
+# Fshare
 FTP server streams my media files from my PC to my WLAN devices.
 
 ## Tech Stack
@@ -11,12 +11,12 @@ FTP server streams my media files from my PC to my WLAN devices.
 
 #### 1. Clone the repo.
 ```bach
-git clone https://github.com/hazemessam/ftp-server.git
+git clone https://github.com/hazemessam/fshare.git
 ```
 
 #### 2. Enter the project directory.
 ```bash
-cd ftp-server
+cd fshare
 ```
 #### 3. Set the `MEDIA_DIR` environment variable to your media directory path (add it to the `.env` file for consistency).
 ```bash
